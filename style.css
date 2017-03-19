@@ -1,0 +1,67 @@
+body {
+  background: lightblue;
+  display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family:'lato', sans-serif;
+}
+header{
+
+
+}
+
+.splashscreen {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-image: url(st3.png);
+  background-size: cover;
+  color: white;
+}
+body>header>nav>ul{
+  display: flex;
+  justify-content: space-around;
+}
+.safe_elements {
+  overflow: hidden;
+}
+.safe_elements article {
+width: 33%;
+float: left;
+text-align: center;
+padding: 0;
+}
+.safe_elements h2 {
+  text-align: center;
+}
+.quote {
+background-image: url(http://orig03.deviantart.net/c238/f/2012/083/a/8/cine_png_by_isfe_by_tutorialesisfe-d4tu7d3.png);
+background-size: cover;
+text-align: center;
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+height: 60vh;
+font-size: 40px;
+}
+
+.valueprop >article {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+}
+
+@media(max-width: 1163px) {
+    .quote article {
+      font-size: 20px;
+                   }
+}
+
+@media(max-width: 640px) {
+  .safe_elements article {
+    width: 100%;
+  }
