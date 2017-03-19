@@ -18,7 +18,7 @@ header{
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background-image: url(st3.png);
+  background-image: url(./st3.png);
   background-size: cover;
   color: white;
 }
