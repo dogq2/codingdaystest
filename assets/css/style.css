@@ -1,5 +1,5 @@
 body {
-  background: lightblue;
+background-color: black;
   display: block;
     margin: 0px;
     margin-top: 0px;
@@ -7,10 +7,7 @@ body {
     margin-bottom: 0px;
     margin-left: 0px;
     font-family:'lato', sans-serif;
-}
-header{
-
-
+    color: white;
 }
 
 .splashscreen {
@@ -18,7 +15,7 @@ header{
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background-image: url(./st3.png);
+  background-image: url(http://trailers.apple.com/trailers/marvel/guardians-of-the-galaxy-vol-2/images/background.jpg);
   background-size: cover;
   color: white;
 }
@@ -49,11 +46,34 @@ height: 60vh;
 font-size: 40px;
 }
 
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.valueprop > div > div {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+}
+
 .valueprop >article {
   padding: 60px 0;
   display: flex;
   align-items: center;
 }
+
+.valueprop > div > div > article > h1 {
+    margin: 0;
+    color: #53A1F2;
+}
+.valueprop > div > div > img {
+    border-radius: 2px;
+    margin-right: 40px;
+    height: 240px;
+}
+
 
 @media(max-width: 1163px) {
     .quote article {
